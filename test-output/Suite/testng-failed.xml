@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Test_Class.AmazpoonTest">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="Test"/>
+          <include name="BeforeTest"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- Test_Class.AmazpoonTest -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
